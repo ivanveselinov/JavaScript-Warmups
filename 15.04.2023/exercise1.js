@@ -1,11 +1,11 @@
 // The Fotune Teller
 
 let name = "Ivan"
-let location = "Melbourne"
+let locationName = "Melbourne"
 let partner = "Marina"
 let kids = 3
 
-console.log(`You will be ${name} in ${location}, and married to ${partner} with ${kids} kids`);
+console.log(`You will be ${name} in ${locationName}, and married to ${partner} with ${kids} kids`);
 
 
 // The life Time support calculator
