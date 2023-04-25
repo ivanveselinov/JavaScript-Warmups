@@ -63,3 +63,28 @@ const character = function () {
 }
 
 character()
+
+
+
+
+const sumTwoArrays = function () {
+
+  array1 = [2, 4, 6, 8, 10]
+  array2 = [1, 3, 5, 7, 9]
+
+  for ( let i = 0; i < array1.length; i++){
+    for ( let j = 0; j < array2.length; j++) {
+      const sumArray2 = array2[0] + array2[1] + array2[2] + array2[3]
+      const sumArray1 = array1[0] + array1[1] + array1[2] + array1[3]
+
+    const sum = sumArray1 + sumArray2;
+    console.log(`${sumArray1} + ${sumArray2} = ${sum}`)
+
+    const multiply = sumArray1 * sumArray2;
+    console.log(`${sumArray1} * ${sumArray2} = ${multiply}`)
+    break;
+    }
+  }
+}
+
+sumTwoArrays()
