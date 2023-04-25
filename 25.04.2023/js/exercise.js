@@ -51,3 +51,22 @@ const multiplicationTables = function () {
   }
 }
 console.log(multiplicationTables())
+
+
+const gradeAssigner = function () {
+  for ( i = 60; i <= 100; i++ ) {
+    if ( i >= 91 && i <= 100) {
+      console.log(`for ${i} you got grade A`);
+    } else if ( i <= 90 && i >= 81) {
+      console.log(`for ${i} you got grade B`);
+    } else if ( i <= 80 && i >= 71) {
+      console.log(`for ${i} you got grade C`);
+    } else if ( i <= 70 && i >= 61) {
+      console.log(`for ${i} you got grade D`);
+    } else {
+      console.log(`for ${i} you have grade E, and you did not pass this exam`)
+    }
+  }
+}
+
+console.log(gradeAssigner());
