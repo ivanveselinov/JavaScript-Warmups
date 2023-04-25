@@ -42,3 +42,12 @@ const evenOdd = function () {
 }
 
 console.log(evenOdd())
+
+
+const multiplicationTables = function () {
+  for ( let i = 0; i <= 10; i++){
+    const multiply = i * 9;
+    console.log(`Number ${i} multplied by 9 = ${multiply}`);
+  }
+}
+console.log(multiplicationTables())
