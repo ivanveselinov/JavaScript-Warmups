@@ -60,20 +60,41 @@ const multiply = function (num) {
 multiply(4)
 
 
- //
+ // ARRAYS !!! BEGINING !!!
 
-const myFaroviteThings = ["Brocoli", 60481, "Love Actually"];
+const myFavoriteThings = ["Brocoli", 60481, "Love Actually"];
 
-console.log(myFaroviteThings[0])
+console.log(myFavoriteThings[0])
 
-myFaroviteThings.push("Ivan");
+myFavoriteThings.push("Ivan");
 
-console.log(myFaroviteThings)
+console.log(myFavoriteThings)
 
-myFaroviteThings[3] = "Test"
+myFavoriteThings[3] = "Test"
 
-console.log(myFaroviteThings)
+console.log(myFavoriteThings)
 
-myFaroviteThings[5] = "Empty Element is here"
+myFavoriteThings[5] = "Empty Element is here"
 
-console.log(myFaroviteThings)
+console.log(myFavoriteThings)
+
+myFavoriteThings[5].pop
+
+console.log(myFavoriteThings)
+
+
+for ( let i = 0; i <= myFavoriteThings.length; i++){
+  console.log(myFavoriteThings[i])
+
+  if ( myFavoriteThings[i] === "Test"){
+    console.log(`${myFavoriteThings[i]} I have found you`)
+  }
+}
+
+
+const myCars = ["Mercedes", "VW", "Audi", "Ford"];
+
+for ( let i =0; i < myCars.length; i++) {
+  const cars = myCars[i]
+  console.log(`My ${i + 1}st choice is ${cars}`)
+}
